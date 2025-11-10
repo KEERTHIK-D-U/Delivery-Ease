@@ -33,10 +33,6 @@ This backend provides secure and optimized APIs for:
 
 ## ⚙️ Folder Structure
 
-## ⚙️ Folder Structure
-
-## ⚙️ Folder Structure
-
 Delivery-Ease/
 ├── .adminjs/                  # AdminJS configuration and resources
 ├── node_modules/              # Installed project dependencies
