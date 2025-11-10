@@ -33,25 +33,25 @@ This backend provides secure and optimized APIs for:
 
 ## ⚙️ Folder Structure
 
-Delivery-Ease/
-├── app.js # Main Fastify app entry
-├── models/ # Mongoose schemas and models
-├── routes/ # API route definitions
-├── controllers/ # Logic for handling API requests
-├── utils/ # Helper functions (auth, JWT, etc.)
-├── .env.example # Sample environment variables
-├── package.json
-└── README.md
+-Delivery-Ease/
+-├── app.js # Main Fastify app entry
+-├── models/ # Mongoose schemas and models
+-├── routes/ # API route definitions
+-├── controllers/ # Logic for handling API requests
+-├── utils/ # Helper functions (auth, JWT, etc.)
+-├── .env.example # Sample environment variables
+-├── package.json
+-└── README.md
 
 
 ---
 
 ## 🔑 Environment Variables
 
-Create a `.env` file in the root directory with the following:
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-ADMIN_EMAIL=your_admin_email
-ADMIN_PASSWORD=your_admin_password
+-Create a `.env` file in the root directory with the following:
+-PORT=5000
+-MONGO_URI=your_mongodb_connection_string
+-JWT_SECRET=your_secret_key
+-ADMIN_EMAIL=your_admin_email
+-ADMIN_PASSWORD=your_admin_password
 
