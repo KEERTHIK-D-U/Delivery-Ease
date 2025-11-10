@@ -1,0 +1,3 @@
+to use import and export should include this
+  "type": "module",
+"start": "nodemon index.js",
