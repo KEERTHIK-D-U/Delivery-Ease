@@ -33,25 +33,63 @@ This backend provides secure and optimized APIs for:
 
 ## ⚙️ Folder Structure
 
--Delivery-Ease/
--├── app.js # Main Fastify app entry
--├── models/ # Mongoose schemas and models
--├── routes/ # API route definitions
--├── controllers/ # Logic for handling API requests
--├── utils/ # Helper functions (auth, JWT, etc.)
--├── .env.example # Sample environment variables
--├── package.json
--└── README.md
+## ⚙️ Folder Structure
+
+## ⚙️ Folder Structure
+
+Delivery-Ease/
+├── .adminjs/                  # AdminJS configuration and resources
+├── node_modules/              # Installed project dependencies
+├── src/
+│   ├── config/                # Configuration files for app setup and database
+│   │   ├── config.js
+│   │   ├── connect.js
+│   │   └── setup.js
+│   ├── controllers/           # Controller logic for different modules
+│   │   ├── auth/              # Authentication and user session handling
+│   │   ├── order/             # Order creation, updates, and tracking
+│   │   ├── product/           # Product management and inventory
+│   │   └── tracking/          # Delivery tracking and location updates
+│   ├── middleware/            # Middleware functions (auth, validation)
+│   │   └── auth.js
+│   ├── models/                # Mongoose schemas and database models
+│   │   ├── branch.js
+│   │   ├── category.js
+│   │   ├── counter.js
+│   │   ├── index.js
+│   │   ├── order.js
+│   │   ├── products.js
+│   │   └── user.js
+│   ├── routes/                # API route definitions
+│   │   ├── auth.js
+│   │   ├── index.js
+│   │   ├── order.js
+│   │   └── products.js
+├── .env                       # Environment variables
+├── .gitignore                 # Files and folders ignored by Git
+├── app.js                     # Main Fastify application entry point
+├── notes.txt                  # Developer notes / documentation
+├── package.json               # Project metadata and dependencies
+├── package-lock.json          # Dependency lock file
+├── seedData.js                # Script for initial data seeding
+├── seedScript.js              # Data initialization script
+└── README.md                  # Project documentation
+
 
 
 ---
 
 ## 🔑 Environment Variables
 
--Create a `.env` file in the root directory with the following:
--PORT=5000
--MONGO_URI=your_mongodb_connection_string
--JWT_SECRET=your_secret_key
--ADMIN_EMAIL=your_admin_email
--ADMIN_PASSWORD=your_admin_password
+This project requires the following environment variables to be configured in your `.env` file:
+
+- **PORT** = 3001 
+- **MONGO_URI** = your_mongodb_connection_string  
+- **JWT_SECRET** = your_secret_key  
+- **ADMIN_EMAIL** = keerthikcoorgdu@gmail.com (only for demo pupose)
+- **ADMIN_PASSWORD** = 123456789
+
+
+
+
 
