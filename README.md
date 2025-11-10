@@ -33,43 +33,33 @@ This backend provides secure and optimized APIs for:
 
 ## ⚙️ Folder Structure
 
-Delivery-Ease/
-├── .adminjs/                  # AdminJS configuration and resources
-├── node_modules/              # Installed project dependencies
-├── src/
-│   ├── config/                # Configuration files for app setup and database
-│   │   ├── config.js
-│   │   ├── connect.js
-│   │   └── setup.js
-│   ├── controllers/           # Controller logic for different modules
-│   │   ├── auth/              # Authentication and user session handling
-│   │   ├── order/             # Order creation, updates, and tracking
-│   │   ├── product/           # Product management and inventory
-│   │   └── tracking/          # Delivery tracking and location updates
-│   ├── middleware/            # Middleware functions (auth, validation)
-│   │   └── auth.js
-│   ├── models/                # Mongoose schemas and database models
-│   │   ├── branch.js
-│   │   ├── category.js
-│   │   ├── counter.js
-│   │   ├── index.js
-│   │   ├── order.js
-│   │   ├── products.js
-│   │   └── user.js
-│   ├── routes/                # API route definitions
-│   │   ├── auth.js
-│   │   ├── index.js
-│   │   ├── order.js
-│   │   └── products.js
-├── .env                       # Environment variables
-├── .gitignore                 # Files and folders ignored by Git
-├── app.js                     # Main Fastify application entry point
-├── notes.txt                  # Developer notes / documentation
-├── package.json               # Project metadata and dependencies
-├── package-lock.json          # Dependency lock file
-├── seedData.js                # Script for initial data seeding
-├── seedScript.js              # Data initialization script
-└── README.md                  # Project documentation
+**Delivery-Ease/**
+- **.adminjs/** → AdminJS configuration and resources  
+- **node_modules/** → Installed project dependencies  
+- **src/**
+  - **config/** → Configuration files for app setup and database  
+    - `config.js`  
+    - `connect.js`  
+    - `setup.js`  
+  - **controllers/** → Controller logic for different modules  
+    - **auth/** → Authentication and user session handling  
+    - **order/** → Order creation, updates, and tracking  
+    - **product/** → Product management and inventory  
+    - **tracking/** → Delivery tracking and location updates  
+  - **middleware/** → Middleware functions (auth, validation)  
+    - `auth.js`  
+  - **models/** → Mongoose schemas and database models  
+    - `branch.js`, `category.js`, `counter.js`, `index.js`, `order.js`, `products.js`, `user.js`  
+  - **routes/** → API route definitions  
+    - `auth.js`, `index.js`, `order.js`, `products.js`  
+- **.env** → Environment variables  
+- **.gitignore** → Git ignore configuration  
+- **app.js** → Main Fastify application entry point  
+- **notes.txt** → Developer notes  
+- **package.json** → Project metadata and dependencies  
+- **package-lock.json** → Dependency lock file  
+- **seedData.js**, **seedScript.js** → Data seeding and initialization scripts  
+- **README.md** → Project documentation  
 
 
 
